@@ -1,0 +1,4 @@
+top nav - Lato
+LogoTextSticky - Bebas
+Numbers - Oswald
+paragraphs - Lato

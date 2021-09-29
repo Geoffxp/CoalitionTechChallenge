@@ -1,0 +1,233 @@
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: -1;
+}
+
+.hidden {
+    display: none;
+}
+
+.banner img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.whitebg {
+    background-color: white;
+}
+
+.navTop {
+    position: absolute !important;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.section1 {
+    margin-top: -100px;
+    background-image: url("./assets/topBanner.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 55rem;
+}
+
+.bottom {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(44, 59, 82, 0.459);
+}
+
+.section2 {
+    position: relative;
+    background-image: url("./assets/01background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right 0px bottom -450px;
+    width: 100%;
+    height: 50rem;
+}
+
+.section3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 225px
+}
+
+.section3 p {
+    padding-top: 70px;
+    padding-left: 25px;
+}
+
+h1 {
+    font-family: "Oswald";
+    font-size: 100pt;
+    font-weight: bolder;
+    color:rgba(50, 70, 100, 0.596)
+}
+
+h3 {
+    margin-top: 70px;
+    margin-left: -25px;
+    font-family: "Oswald";
+    font-size: 30pt;
+    font-weight: bolder;
+    color:rgb(50, 70, 100)
+}
+
+.section2 p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logoText {
+    font-size: 25px;
+    padding-top: 7px;
+    padding-left: 5px;
+    line-height: 8px !important;
+    font-family: "Oswald";
+}
+
+.navLink {
+    padding-right: 100px;
+    font-family: "Lato" !important;
+    text-decoration: underline !important;
+    font-style: italic;
+    color: white;
+}
+
+.navLink:nth-child(2n) {
+    padding-right: 0;
+}
+
+.blue {
+    transform: scaleY(1.2);
+    letter-spacing: 0.5px;
+    color: rgb(22, 45, 110)
+}
+
+#homeBtn {
+    cursor: pointer;
+}
+
+.schedule {
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 75px;
+    width: 350px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+#section4 {
+    position: relative;
+    background-image: url("./assets/tab1bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 50rem;
+}
+
+.tab {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.61);
+    font-weight: bolder;
+    font-family: "Oswald";
+    padding: 10px;
+    height: 50px;
+}
+
+.tabs {
+    background-color: rgb(50, 70, 100);
+    width: 100%;
+    height: 50px;
+}
+
+.activeTab {
+    color:rgb(50, 70, 100);
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.363);
+    text-decoration: underline;
+}
+
+td {
+    padding-right: 50px;
+}
+
+td:nth-child(2n) {
+    padding-right: 0;
+}
+
+.scheduleHeader {
+    font-family: "Oswald";
+    padding-left: 5px;
+    font-size: 23pt;
+    font-weight: bolder;
+    color:rgb(50, 70, 100)
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(37, 52, 75);
+    color: rgba(89, 119, 163, 0.808);
+}
+
+footer img {
+    filter:opacity(0.5)
+}
+
+footer p {
+    padding: 0;
+    margin-top: -55px;
+    font-family: "Lato";
+    font-style: italic;
+}
+
+@media (max-width: 1650px) {
+    .section2 {
+        background-position: right 0px bottom -300px;
+    }
+}
+@media (max-width: 1450px) {
+    .section1 {
+        height: 45rem;
+    }
+    .section2 {
+        background-position: top;
+    }
+    .section3 {
+        height: 33rem;
+    }
+    #section4 {
+        height: 33rem;
+    }
+}
+@media (max-width: 1000px) {
+    .section1 {
+        height: 33rem;
+    }
+    .section2 {
+        background-position: left 0px bottom -135px;
+    }
+    .section2 p {
+        margin-top: 50px;
+    }
+    .section3 {
+        height: 33rem;
+    }
+    #section4 {
+        height: 33rem;
+    }
+}
